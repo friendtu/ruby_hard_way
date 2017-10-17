@@ -8,6 +8,8 @@ class Dict
         end
     end
 
+    #attr_reader :buf
+
     def get_bucket(key)
         @buf[key.hash % @buf.length]
     end
@@ -46,7 +48,8 @@ class Dict
             end
         end
     end
-#private :get_bucket
+   
+    private :get_bucket
 
 end
 #end

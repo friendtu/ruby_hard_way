@@ -30,3 +30,4 @@ states.list
 #failed to call private method
 #puts "bucket: #{states.get_bucket('Oregon')}"
 
+#puts "buffer: #{states.buf}"

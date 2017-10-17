@@ -46,6 +46,8 @@ class Dict
             end
         end
     end
+#private :get_bucket
+
 end
 #end
 

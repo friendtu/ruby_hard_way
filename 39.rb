@@ -26,3 +26,7 @@ cities.list
 
 puts '-'*10
 states.list
+
+#failed to call private method
+#puts "bucket: #{states.get_bucket('Oregon')}"
+
